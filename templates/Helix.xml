@@ -1,0 +1,15 @@
+<templateSet group="Helix">
+  <template name=";live" value="do_$METHOD_NAME$: function(event, app, jqel, data) {&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=";hlive" value="/**&#10; * &#10; */&#10;(function(moduleName, appName) {&#10;    var moduleNamespaceString = appName + '.LiveEventHandlers.' + moduleName;&#10;    MMI.Util.namespace(moduleNamespaceString);&#10;    var moduleNamespace = MMI.Util.getNamespace(moduleNamespaceString);&#10;&#10;    moduleNamespace = {&#10;        handleAppInstanceCreated: function (app) {&#10;            app.registerHandlerClass(SolarSystem.LiveEventHandlers[moduleName]);&#10;        }&#10;&#10;        /* Create live event handler methods here&#10;        (remember to add a comma after the preceding method's closing brace. */&#10;        $END$&#10;    };&#10;    MMI.App.registerInitCallback(moduleNamespace.handleAppInstanceCreated);&#10;})('$ModuleName$', '$AppName$'); // ('PhotoGallery', 'SomeWebsite')" description="Helix Live Event Handler Module" toReformat="false" toShortenFQNames="true">
+    <variable name="ModuleName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AppName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

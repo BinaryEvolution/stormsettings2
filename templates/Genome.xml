@@ -1,0 +1,17 @@
+<templateSet group="Genome">
+  <template name=";field" value="$fields['$FieldName$'] = [&#10;    'table'        =&gt; $table,&#10;    'datatype'     =&gt; '$MySqlType$',&#10;    'name'         =&gt; '$FieldLabel$',&#10;    'group'        =&gt; 'Basic',&#10;    'edittype'     =&gt; '$FieldType$',&#10;    //'optionsource' =&gt; 'function:getAllowedStuff()', // only needed for edittype option, checkboxgroup, radio&#10;    'default'      =&gt; '',&#10;    'phptype'      =&gt; '$PhpType$'&#10;];" description="A new Genome field." toReformat="false" toShortenFQNames="true">
+    <variable name="FieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MySqlType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FieldLabel" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FieldType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PhpType" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="{eco" value="{eco field='$END$'}{/eco}" description="Eco field" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
