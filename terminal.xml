@@ -1,5 +1,0 @@
-<application>
-  <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="C:\cygwin64\bin\bash.exe --rcfile C:\cygwin64\etc\bash.bashrc -l" />
-  </component>
-</application>
