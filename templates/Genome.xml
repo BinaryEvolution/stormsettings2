@@ -1,17 +1,148 @@
 <templateSet group="Genome">
-  <template name=";field" value="$fields['$FieldName$'] = [&#10;    'table'        =&gt; $table,&#10;    'datatype'     =&gt; '$MySqlType$',&#10;    'name'         =&gt; '$FieldLabel$',&#10;    'group'        =&gt; 'Basic',&#10;    'edittype'     =&gt; '$FieldType$',&#10;    //'optionsource' =&gt; 'function:getAllowedStuff()', // only needed for edittype option, checkboxgroup, radio&#10;    'default'      =&gt; '',&#10;    'phptype'      =&gt; '$PhpType$'&#10;];" description="A new Genome field." toReformat="false" toShortenFQNames="true">
-    <variable name="FieldName" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="MySqlType" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="FieldLabel" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="FieldType" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PhpType" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="debug" value="$$this-&gt;debug(['message'=&gt;'$message$'$extra$],'$group$',DEBUG_$level$);&#10;$END$" description="Send statement to debug" toReformat="true" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="extra" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="group" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="level" expression="" defaultValue="&quot;SHOWN&quot;" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="{eco" value="{eco field='$END$'}{/eco}" description="Eco field" toReformat="false" toShortenFQNames="true">
+  <template name="define" value="if(!defined('$name$'))&#10;{&#10;    /**&#10;     * $Description$&#10;     * @var $Type$&#10;     */&#10;    define('$name$', $value$);&#10;}&#10;$END$" description="Define a constant" toReformat="true" toShortenFQNames="true">
+    <variable name="Description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="getGenome" value="$genome = core::getGenome();&#10;$END$" description="Get the Genome object" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HAML" value="false" />
       <option name="OTHER" value="true" />
     </context>
+  </template>
+  <template name="field" value="// $comment$&#10;$$fieldDescriptions['$fieldName$'] = array(&#10;    'table' =&gt; $$table,&#10;    'name' =&gt; '$fieldLabel$',&#10;    'edittype' =&gt; '$fieldType$',&#10;    'datatype' =&gt; '$dataType$',&#10;    'default' =&gt; '$default$',$optionsource$&#10;    'phptype'=&gt;'$phptype$'&#10;&#9;);&#10;&#10;$END$" description="A Genome field." toReformat="true" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldLabel" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="optionsource" expression="" defaultValue="&quot;\n\t'optionsource' =&gt; '',&quot;" alwaysStopAt="true" />
+    <variable name="phptype" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="optionfield" value="// $comment$&#10;$$fieldDescriptions['$fieldName$'] = array(&#10;    'table' =&gt; $$table,&#10;    'name' =&gt; '$fieldLabel$',&#10;    'edittype' =&gt; 'option',&#10;    'datatype' =&gt; '$dataType$',&#10;    'default' =&gt; '$default$',&#10;    'optionsource' =&gt; 'function:$sourceMethodName$',&#10;    'phptype'=&gt;'$phptype$'&#10;    );&#10;&#10;$END$" description="A drop-down option field" toReformat="true" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldLabel" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="sourceMethodName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="phptype" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="textfield" value="// $comment$&#10;$$fieldDescriptions['$fieldName$'] = array(&#10;    'table' =&gt; $$table,&#10;    'name' =&gt; '$fieldLabel$',&#10;    'edittype' =&gt; 'text',&#10;    'datatype' =&gt; 'VARCHAR($fieldLength$)',&#10;    'default' =&gt; '$default$',&#10;    'phptype'=&gt;'$phptype$'&#10;    );&#10;&#10;$END$" description="A Genome text input." toReformat="true" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldLabel" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldLength" expression="" defaultValue="150" alwaysStopAt="true" />
+    <variable name="phptype" expression="" defaultValue="string" alwaysStopAt="true" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="textareafield" value="// $comment$&#10;$$fieldDescriptions['$fieldName$'] = array(&#10;    'table' =&gt; $$table,&#10;    'name' =&gt; '$fieldLabel$',&#10;    'edittype' =&gt; 'textarea',&#10;    'datatype' =&gt; '$dataType$',&#10;    'default' =&gt; '$default$',&#10;    'phptype'=&gt;'$phptype$'&#10;    );&#10;&#10;$END$" description="A Genome text box." toReformat="true" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldLabel" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataType" expression="" defaultValue="TEXT" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="phptype" expression="" defaultValue="string" alwaysStopAt="true" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="datefield" value="// $comment$&#10;$$fieldDescriptions['$fieldName$'] = array(&#10;    'table' =&gt; $$table,&#10;    'name' =&gt; '$fieldLabel$',&#10;    'edittype' =&gt; 'date',&#10;    'datatype' =&gt; 'INT',&#10;    'phptype'=&gt;'int'&#10;    );&#10;&#10;$END$" description="A Genome date field." toReformat="true" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldLabel" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="filedoc" value="/**&#10; * $displayName$ Class File&#10; *&#10; * @author $author$ &lt;$email$@mediamacros.net&gt;&#10; * @copyright Copyright (c) 2007 - $year$, MediaMacros, Inc.&#10; */&#10; &#10; &#10;/**&#10; * $displayName$ Class&#10; *&#10; * $description$&#10; * @since $genomeOrProjectVersion$&#10; */&#10;$END$" description="Document a class file." toReformat="true" toShortenFQNames="true">
+    <variable name="displayName" expression="underscoresToSpaces(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <variable name="author" expression="" defaultValue="&quot;Shane Rogers&quot;" alwaysStopAt="true" />
+    <variable name="email" expression="" defaultValue="&quot;shane&quot;" alwaysStopAt="true" />
+    <variable name="year" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="&quot;Enter a description&quot;" alwaysStopAt="true" />
+    <variable name="genomeOrProjectVersion" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="itemdoc" value="/**&#10; * $displayName$ Object Class File&#10; *&#10; * @author $author$ &lt;$email$@mediamacros.net&gt;&#10; * @copyright Copyright (c) 2007 - $year$, MediaMacros, Inc.&#10; * @version 2.5&#10; * @package $package$&#10; * @subpackage $directory$&#10; */&#10;/**&#10; * $displayName$ Object Class&#10; *&#10; * $description$&#10; * &#10; * @TODO You need to put the property list here or code completion and syntax checking will fail.&#10; * To get a list of properties for this object, log in as an administrators and go to:&#10; * index.php?mode=edit&amp;view=property_list&amp;attitude=simple&amp;type=#parse(&quot;itemClassName.php&quot;)&#10; *&#10; */&#10;$END$" description="Document an item object file." toReformat="true" toShortenFQNames="true">
+    <variable name="displayName" expression="underscoresToSpaces(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <variable name="author" expression="" defaultValue="&quot;Your Name&quot;" alwaysStopAt="true" />
+    <variable name="email" expression="" defaultValue="&quot;email&quot;" alwaysStopAt="true" />
+    <variable name="year" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="package" expression="" defaultValue="&quot;Genome&quot;" alwaysStopAt="true" />
+    <variable name="directory" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="&quot;Enter a description&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="index" value="$position = 0;&#10;$data[ $tableName$ ]['$indexName$'] =array(&#10;    'type'=&gt;'',          // Can be fulltext or an empty string.&#10;    'unique'=&gt;$unique$,  // True if the index forces a unique value.&#10;    'fields'=&gt;array(&#10;        $position++ =&gt; array(&#10;            'name' =&gt; '$fieldName$'&#10;        ),  // type indexfield to add new fields&#10;        $END&#10;    ));" description="Create an index description." toReformat="true" toShortenFQNames="true">
+    <variable name="tableName" expression="" defaultValue="&quot;item_object::getItemTable()&quot;" alwaysStopAt="true" />
+    <variable name="indexName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="unique" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="indexfield" value="$position++ =&gt; array(&#10;    'name' =&gt; '$fieldName$'&#10;),&#10;$END$" description="Add another field to an index." toReformat="true" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fieldReference" value="$fieldReferences['$RelationshipFieldName$'] = array( // The name of the field in this class.&#10;    'foreignField' =&gt; '$ForeignField$', // The name of field that serves as a foreign key.&#10;    'fieldList'    =&gt; '$FieldList$'// The field list the foreign field belongs to.&#10;    );&#10;&#10;$END$" description="Adds a reference to a field to a relationship trait." toReformat="true" toShortenFQNames="true">
+    <variable name="RelationshipFieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ForeignField" expression="" defaultValue="&quot;item_id&quot;" alwaysStopAt="true" />
+    <variable name="FieldList" expression="" defaultValue="&quot;fieldList&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="unimplemented" value="throw new \Genome\Exceptions\Logic\UnimplementedException(__CLASS__.'-&gt;'.__METHOD__.'() is unimplemented at line ' . __LINE__, \Genome\Exceptions\Logic\UnimplementedException::METHOD_UNIMPLEMENTED);" description="Throws an exception that a method has not been implemented." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="unfinished" value="throw new \Genome\Exceptions\Logic\UnimplementedException(__CLASS__.'-&gt;'.__METHOD__.'() is unimplemented at line ' . __LINE__, \Genome\Exceptions\Logic\UnimplementedException::METHOD_UNFINISHED);" description="Throws an exception that a method is unfinished." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cdebug" value="core::debug(['message'=&gt;'$message$'$extra$],'$group$',DEBUG_$level$);&#10;$END$" description="Debug from a static context" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="extra" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="group" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="level" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>

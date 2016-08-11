@@ -4,50 +4,25 @@
       <component name="Encoding">
         <file url="PROJECT" charset="UTF-8" />
       </component>
+      <component name="Git.Settings">
+        <option name="SYNC_SETTING" value="DONT" />
+        <option name="WARN_ABOUT_CRLF" value="false" />
+      </component>
       <component name="InspectionProjectProfileManager">
         <profile version="1.0">
           <option name="myName" value="Project Default" />
           <option name="myLocal" value="true" />
-          <inspection_tool class="Evaluate arithmetic expression" enabled="true" level="INFO" enabled_by_default="true" />
-          <inspection_tool class="Evaluate expansion" enabled="true" level="INFO" enabled_by_default="true" />
-          <inspection_tool class="Fix shebang" enabled="false" level="WARNING" enabled_by_default="false">
-            <shebang>/bin/bash</shebang>
-            <shebang>/bin/sh</shebang>
-          </inspection_tool>
-          <inspection_tool class="Global definition of local var" enabled="true" level="WARNING" enabled_by_default="true" />
-          <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
-          <inspection_tool class="Integer division with remainder found." enabled="true" level="WARNING" enabled_by_default="true" />
-          <inspection_tool class="PhpDocSignatureInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-          <inspection_tool class="PhpDynamicAsStaticMethodCallInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+          <inspection_tool class="CheckEmptyScriptTag" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="HtmlDeprecatedTag" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="HtmlExtraClosingTag" enabled="false" level="ERROR" enabled_by_default="false" />
+          <inspection_tool class="HtmlUnknownAnchorTarget" enabled="false" level="WARNING" enabled_by_default="false" />
           <inspection_tool class="PhpIncludeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-          <inspection_tool class="PhpMissingDocCommentInspection" enabled="true" level="WARNING" enabled_by_default="true">
-            <option name="CHECK_CONSTANT" value="true" />
-            <option name="CHECK_FIELD" value="true" />
-            <option name="CHECK_CLASS_CONSTANT" value="true" />
-            <option name="SKIP_EMPTY_FUNCTION" value="false" />
-            <option name="SKIP_EMPTY_METHOD" value="false" />
-          </inspection_tool>
-          <inspection_tool class="PhpMultipleClassesDeclarationsInOneFile" enabled="true" level="WARNING" enabled_by_default="true" />
-          <inspection_tool class="PhpRedundantClosingTagInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-          <inspection_tool class="PhpTraditionalSyntaxArrayLiteralInspection" enabled="true" level="INFO" enabled_by_default="true" />
-          <inspection_tool class="PhpUndefinedClassConstantInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-          <inspection_tool class="PhpUndefinedClassInspection" enabled="true" level="WARNING" enabled_by_default="true">
-            <option name="DONT_REPORT_MULTI_RESOLVE" value="true" />
-          </inspection_tool>
-          <inspection_tool class="PhpUndefinedConstantInspection" enabled="true" level="ERROR" enabled_by_default="true" />
           <inspection_tool class="PhpUndefinedFunctionInspection" enabled="true" level="ERROR" enabled_by_default="true" />
           <inspection_tool class="PhpUndefinedMethodInspection" enabled="true" level="ERROR" enabled_by_default="true" />
           <inspection_tool class="PhpUndefinedVariableInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-          <inspection_tool class="PhpUnusedParameterInspection" enabled="true" level="WARNING" enabled_by_default="true">
-            <option name="DONT_REPORT_ABSTRACT_CLASS" value="true" />
-          </inspection_tool>
-          <inspection_tool class="PhpUsageOfSilenceOperatorInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-          <inspection_tool class="PhpWrongStringConcatenationInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-          <inspection_tool class="Replace with subshell" enabled="true" level="INFO" enabled_by_default="true" />
           <inspection_tool class="SqlAddNotNullColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
           <inspection_tool class="SqlAmbiguousColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
           <inspection_tool class="SqlAutoIncrementDuplicateInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-          <inspection_tool class="SqlCheckUsingColumnsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
           <inspection_tool class="SqlConstantConditionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
           <inspection_tool class="SqlDeliverTableNameInspection" enabled="false" level="WARNING" enabled_by_default="false" />
           <inspection_tool class="SqlDeprecateTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -60,18 +35,18 @@
           <inspection_tool class="SqlResolveInspection" enabled="false" level="WARNING" enabled_by_default="false" />
           <inspection_tool class="SqlShouldBeInGroupByInspection" enabled="false" level="WARNING" enabled_by_default="false" />
           <inspection_tool class="SqlTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-          <inspection_tool class="TaskInspection" enabled="false" level="INFO" enabled_by_default="false" />
-          <inspection_tool class="UnusedDefine" enabled="true" level="WARNING" enabled_by_default="true" />
-          <inspection_tool class="Wrap function body" enabled="true" level="WARNING" enabled_by_default="true" />
         </profile>
         <option name="PROJECT_PROFILE" value="Project Default" />
         <option name="USE_PROJECT_PROFILE" value="true" />
         <version value="1.0" />
       </component>
-      <component name="NamedScopeManager">
-        <scope name="Hide SCSS Map Files" pattern="!file:*.map" />
+      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.4">
+        <include_path>
+          <path value="." />
+          <path value="C:\php\pear" />
+          <path value="C:\Projects\Smarty-3.1.16\libs" />
+        </include_path>
       </component>
-      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
       <component name="ProjectInspectionProfilesVisibleTreeState">
         <entry key="Project Default">
           <profile-state>
@@ -79,13 +54,10 @@
               <State>
                 <id />
               </State>
-              <State>
-                <id>File Watchers</id>
-              </State>
             </expanded-state>
             <selected-state>
               <State>
-                <id>TaskInspection</id>
+                <id>BashSupport</id>
               </State>
             </selected-state>
           </profile-state>
@@ -102,38 +74,20 @@
         <ConfirmationsSetting value="0" id="Remove" />
       </component>
       <component name="PropertiesComponent">
-        <property name="options.lastSelected" value="JavaScript.Libraries" />
+        <property name="last_opened_file_path" value="C:/Downloads/profile" />
+        <property name="options.lastSelected" value="Errors" />
         <property name="options.splitter.main.proportions" value="0.3" />
         <property name="options.splitter.details.proportions" value="0.2" />
-        <property name="options.searchVisible" value="true" />
-        <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+        <property name="settings.editor.selected.configurable" value="Template Data Languages" />
         <property name="settings.editor.splitter.proportion" value="0.2" />
-        <property name="last_opened_file_path" value="/usr/local/php5-7.0.2-20160108-102134/bin/php" />
-      </component>
-      <component name="PublishConfigData" autoUpload="Always" preserveTimestamps="false" createEmptyFolders="true" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.map;*.scss" autoUploadExternalChanges="true">
-        <option name="myAutoUpload" value="ALWAYS" />
       </component>
       <component name="VcsContentAnnotationSettings">
         <option name="myLimit" value="2678400000" />
       </component>
-      <component name="masterDetails">
-        <states>
-          <state key="ScopeChooserConfigurable.UI">
-            <settings>
-              <last-edited>Hide SCSS Map Files</last-edited>
-              <splitter-proportions>
-                <option name="proportions">
-                  <list>
-                    <option value="0.09891194" />
-                  </list>
-                </option>
-              </splitter-proportions>
-              <order>
-                <scope name="Hide SCSS Map Files" />
-              </order>
-            </settings>
-          </state>
-        </states>
+      <component name="VcsManagerConfiguration">
+        <option name="myTodoPanelSettings">
+          <TodoPanelSettings />
+        </option>
       </component>
     </defaultProject>
   </component>

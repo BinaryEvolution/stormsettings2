@@ -1,26 +1,14 @@
-<scheme name="Default copy" version="142" parent_scheme="Default">
+<scheme name="Shane" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="20" />
-  <option name="EDITOR_FONT_NAME" value="Monospaced" />
-  <colors>
-    <option name="CONSOLE_BACKGROUND_KEY" value="0" />
-  </colors>
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
+  <option name="EDITOR_FONT_NAME" value="DialogInput" />
   <attributes>
     <option name="ABSTRACT_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="ffc8c8" />
         <option name="ERROR_STRIPE_COLOR" value="ffc8c8" />
-      </value>
-    </option>
-    <option name="CONSOLE_NORMAL_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="e5e5e5" />
-      </value>
-    </option>
-    <option name="CONSOLE_SYSTEM_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="d2" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -51,12 +39,6 @@
       <value>
         <option name="BACKGROUND" value="cad9fa" />
         <option name="ERROR_STRIPE_COLOR" value="bccff9" />
-      </value>
-    </option>
-    <option name="DOC_COMMENT_TAG_VALUE">
-      <value>
-        <option name="FOREGROUND" value="3d3d3d" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
@@ -99,12 +81,6 @@
       <value>
         <option name="BACKGROUND" value="ffff00" />
         <option name="ERROR_STRIPE_COLOR" value="ff00" />
-      </value>
-    </option>
-    <option name="TODO_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ff" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">

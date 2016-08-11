@@ -1,0 +1,52 @@
+<application>
+  <component name="SlackStorage">
+    <option name="settings">
+      <map>
+        <entry key="dannon" value="T03NH233P/B1Y0G11S9/G2PnkvkTWjril3VINbDBmU4E" />
+        <entry key="developers" value="T03NH233P/B0F4RGYQN/3EkZtuTmn03ugUfwg77mAdZJ" />
+        <entry key="eeweb-3" value="T03NH233P/B1VPNB89K/TV0iFTBZw4EUGCFMOrm10VzE" />
+        <entry key="energycodeace" value="T03NH233P/B1VPNBTHP/tQrDxCQil2LZbHAjn7jXESaf" />
+        <entry key="first-environmental" value="T03NH233P/B1VPCQ3K2/Q7Vxqt6nKGYyKjMDTquMiGyE" />
+        <entry key="genome-2-x" value="T03NH233P/B1VPNKCKC/2mBUWMZOC8ArYClvUH7XZKE9" />
+        <entry key="grumble" value="T03NH233P/B1VPQBT3L/eKHKBpqkQQa3QY9g52VOAW2y" />
+        <entry key="kissy-kissy" value="T03NH233P/B166YV2UF/AR97nSEtUK7l5hPUwHp55ARN" />
+        <entry key="michael" value="T03NH233P/B1XRDPY8L/z8BW5abTaSQkI9iwBgBRMi8d" />
+        <entry key="oregon-sea-grant" value="T03NH233P/B1VPDF11N/RTwsiavO9JCFBY21QNE6hfnu" />
+        <entry key="sths-cme-redesign" value="T03NH233P/B1VPRUQ5P/2KjmZNkOZDnq2eBS5TfEOlcR" />
+        <entry key="woot" value="T03NH233P/B1VP9A4Q0/tv4UoCXYfhI27YdTNdPjkJub" />
+      </map>
+    </option>
+    <option name="aliases">
+      <map>
+        <entry key="dannon" value="Shane" />
+        <entry key="developers" value="Shane" />
+        <entry key="eeweb-3" value="Shane" />
+        <entry key="energycodeace" value="Shane" />
+        <entry key="first-environmental" value="Shane" />
+        <entry key="genome-2-x" value="SlackStorm [Shane]" />
+        <entry key="grumble" value="Shane" />
+        <entry key="kissy-kissy" value="Shane" />
+        <entry key="michael" value="Shane" />
+        <entry key="oregon-sea-grant" value="Shane" />
+        <entry key="sths-cme-redesign" value="Shane" />
+        <entry key="woot" value="Shane" />
+      </map>
+    </option>
+    <option name="icons">
+      <map>
+        <entry key="dannon" value=":thunder_cloud_and_rain:" />
+        <entry key="developers" value=":thunder_cloud_and_rain:" />
+        <entry key="eeweb-3" value=":thunder_cloud_and_rain:" />
+        <entry key="energycodeace" value=":thunder_cloud_and_rain:" />
+        <entry key="first-environmental" value=":thunder_cloud_and_rain:" />
+        <entry key="genome-2-x" value=":thunder_cloud_and_rain:" />
+        <entry key="grumble" value=":thunder_cloud_and_rain:" />
+        <entry key="kissy-kissy" value=":thunder_cloud_and_rain:" />
+        <entry key="michael" value=":thunder_cloud_and_rain:" />
+        <entry key="oregon-sea-grant" value=":thunder_cloud_and_rain:" />
+        <entry key="sths-cme-redesign" value=":thunder_cloud_and_rain:" />
+        <entry key="woot" value=":thunder_cloud_and_rain:" />
+      </map>
+    </option>
+  </component>
+</application>
