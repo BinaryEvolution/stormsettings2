@@ -1,0 +1,21 @@
+<templateSet group="Bash">
+  <template name="docinput" value="# * $$$INPUT_NAME$ [$GROUP_NAME$$ADVANCED$] {$DEFAULT_TYPE$:$DEFAULT_VALUE$} ($SPACE_SEPARATED_OPTIONS$) $Optional$&#10;#    $INPUT_DESCRIPTION$&#10;#&#10;" description="Documents a RightScript input" toReformat="false" toShortenFQNames="true">
+    <variable name="INPUT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GROUP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ADVANCED" expression="" defaultValue="&quot;:Advanced&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_TYPE" expression="" defaultValue="&quot;Text&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="" defaultValue="&quot;Default Value&quot;" alwaysStopAt="true" />
+    <variable name="SPACE_SEPARATED_OPTIONS" expression="" defaultValue="&quot;Type:Value&quot;" alwaysStopAt="true" />
+    <variable name="Optional" expression="" defaultValue="&quot;Optional&quot;" alwaysStopAt="true" />
+    <variable name="INPUT_DESCRIPTION" expression="" defaultValue="&quot;Description&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

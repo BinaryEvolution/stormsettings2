@@ -1,141 +1,680 @@
 <application>
   <component name="WebServers">
     <sftpAdvancedGlobalOptions>
-      <SftpAdvancedOptions hostKeyCheckingLevel="NO">
+      <SftpAdvancedOptions hostKeyCheckingLevel="NO" hashKnownHosts="false">
+        <option name="hashHost" value="false" />
         <option name="hostKeyCheckingLevel" value="NO" />
       </SftpAdvancedOptions>
     </sftpAdvancedGlobalOptions>
     <option name="servers">
-      <webServer id="c36fa454-476e-4d17-9047-671833b750e9" name="Nest" url="http://nest">
-        <fileTransfer host="nest" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" username="root" keyPair="true">
+      <webServer id="54749a61-a4b1-4a49-b0ae-b6ba3a1d5713" name="Devel - Discovery Bay" url="http://discoverybay.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/public_html/" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0f6fb3f8-7d54-4874-806b-cf25cdadc937" name="Production - Discovery Bay" url="http://todb.ca.gov">
+        <fileTransfer host="todb.ca.gov" port="22" rootFolder="/home/todbcsd/public_html/" accessType="SFTP" password="df9bdfd4dff0df8bdfe3dfdfdf98dfefdf9adfecdff7dfe5" username="todbcsd">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="584dc41f-43c7-44fc-9941-99b7b5253256" name="Devel - Zeltiq " url="http://zeltiq.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/public_html/zeltiq/" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c49e3f17-75e8-4762-92be-e6fa8f71f2c0" name="Cloud - Welch GC Development" url="http://welchgc.sitesetup.net">
+        <fileTransfer host="welchgc.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/genome/public_html/" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="60c9d31b-1a97-432c-8086-3a0d4a0ee21e" name="Devel - Giving Point" url="http://givingpoint.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/public_html/" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="14b69ea0-95af-4c01-a5bd-f113e27ed369" name="Production - Zeltiq" url="http://production.mediamacros.net">
+        <fileTransfer host="production.mediamacros.net" port="22" rootFolder="/home/coldlipo/public_html" accessType="SFTP" password="dfd3dfebdf84dfe2dfecdfc8dfd3dff0dff7dfd7dfeedff4" username="coldlipo">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b68ac695-d8c4-48a6-b80d-9ac8cc985046" name="Devel - Giving Point Drupal" url="http://givingpointdrupal.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/public_html/" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="089f6fce-e75b-493f-b771-7a6fafd384f7" name="Prod - Bos" url="http://bos.sitesetup.net">
+        <fileTransfer host="bos.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\id_rsa" rootFolder="/mnt/home/bos/production/public_html" accessType="SFTP" username="bos" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b17c78c7-4b77-4a15-a3dc-31784f068535" name="Devel - Fluenz" url="http://fluenzdev.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/public_html/fluenzdev/" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5afe47a5-c0f0-4c45-97e1-1faf7b36d657" name="Cloud - Welch GC Sandbox" url="http://sandbox.executiveengage.com">
+        <fileTransfer host="sandbox.executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/genome" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0bd48936-f007-43e1-8793-eb22871a7d1e" name="Cloud - Welch Wiki" url="http://wiki.executiveengage.com">
+        <fileTransfer host="wiki.executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/wiki/public_html/" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0e5ff07d-02e5-4454-8da7-f297abe19eee" name="Devel - Cool Sculpting" url="http:/coolscupltingu.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/public_html/coolsculptingu/" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0fe1194f-54b1-4437-a836-44c73a296410" name=" Fluenz Development" url="http://import.fluenz.com">
+        <fileTransfer host="import.fluenz.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/development/public_html/" accessType="SFTP" username="development" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a1f86187-1dba-4060-b0f2-e9d2bad00902" name="Cloud - On The Mark Locations Devel" url="http://dev.onthemarklocations.sitesetup.net">
+        <fileTransfer host="dev.onthemarklocations.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/development/public_html" accessType="SFTP" username="development" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="36f14976-5511-45b1-8f52-491fabadcf4b" name="Devel - Sure Sites" url="http://suresitesdev.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/public_html/suresitesdev/" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a460addf-e5b5-4188-8c9d-7460812595da" name="Cloud - Fluenz Web Server" url="http://fluenz.com">
+        <fileTransfer host="fluenz.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/www/public_html/" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="991adb4b-941a-46fe-8d36-88ce1482c384" name="Dev - Sthscme" url="http://sthscme.sitesetup.net">
+        <fileTransfer host="sthscme.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/sthscme/development/" accessType="SFTP" username="sthscme" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9b4dfbfa-e403-4fc3-8088-ccc92a9f46ae" name="Devel - Thomas 101008" url="http://thomasdev.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/public_html/thomasdev" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="778011d7-9210-469c-b14d-9f8f32f086cc" name="Devel - Firebuddy" url="http://firebuddydev.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/dev/firebuddy" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2806a3e4-a7e2-46e8-b1f9-f3774822e548" name="Production - GWagen" url="http://www.gwagen.com/">
+        <fileTransfer host="production.mediamacros.net" port="22" rootFolder="/home/nsgwagen/public_html" accessType="SFTP" password="df99df9bdfe3df9cdf9bdfc0dfc9df93" username="nsgwagen">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1d5b4250-7cac-4d77-9a7e-738da144ab88" name="Production - Beardboy" url="http://www.beardboy.com/">
+        <fileTransfer host="production.mediamacros.net" port="22" rootFolder="/home/beardboy/public_html" accessType="SFTP" password="df99df9bdfe3df9cdf9bdfc0dfc9df93" username="beardboy">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3535cff0-8ca8-4dc2-a029-ce3c7c5e050f" name="Devel - Classroom" url="http://classroom.dev.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/dev/classroom" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f502f776-ed53-467f-a57b-47d743cfae9f" name="Staging - Thomas_101008" url="http://thomas.staging.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/staging/thomas/" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e715576f-da44-4b0d-81ab-e266f6b2074b" name="Devel - Gist" url="http://gist.dev.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/dev/gist/public_html" accessType="SFTP" password="dfdedfc2dfcfdff5dfc8dfeadfdedfc9dfeadfdcdfcf" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3d0deab4-4a1e-4802-91a7-ec429b5acdc2" name="Staging - Gist" url="http://gist.devdrawer.com">
+        <fileTransfer host="devdrawer.com" port="22" rootFolder="/home/devdrawe/staging/gist/public_html" accessType="SFTP" username="devdrawe">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0b1b9d4e-1fdb-4671-ab72-a4c71f390af0" name="Cloud - Fluenz Test Web Server" url="http://sandbox.fluenz.sitesetup.net">
+        <fileTransfer host="sandbox.fluenz.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/www/public_html/" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ba0257de-e9ba-4063-bbfb-cd5f1f95a6a4" name="Cloud - Welch GC Update" url="http://update.executiveengage.com">
+        <fileTransfer host="update.executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/genome" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e8d745c0-0565-4b35-838f-815577792202" name="S&amp;P Server" url="">
+        <fileTransfer mountedRoot="Z:\mmi" accessType="MOUNT" />
+      </webServer>
+      <webServer id="46abff9d-7957-4b3b-be4c-161c98eb72c4" name="Cloud - ShapeUp Dev" url="http://dev.shapeup.sitesetup.net">
+        <fileTransfer host="shapeup.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/dev/public_html" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2238a5fa-230e-4ab2-b962-9c32f82753dd" name="Cloud - ShapeUp Staging" url="http://shapeup.sitesetup.net">
+        <fileTransfer host="shapeup.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/staging/public_html" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8a45963f-0de1-4394-a47e-dc40ba7d8ce9" name="Cloud - Template Development" url="http://templates.sitesetup.net">
+        <fileTransfer host="templates.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="432d742f-2ff9-44e6-9a33-5165e07110fc" name="Cloud - Sthscme Staging" url="http://staging.sthscme.com">
+        <fileTransfer host="sthscme.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/staging/" accessType="SFTP" username="staging" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bf60d4e3-3225-4ee7-8404-cbad909c0982" name="test" url="http://mmsd.sitesetup.net">
+        <fileTransfer host="mmsd.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\Ethen" accessType="SFTP" username="development" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9f2b1dd5-9fee-4553-81ab-96bc231b294e" name="Cloud - On The Mark Locations Staging" url="http://onthemarklocations.sitesetup.net">
+        <fileTransfer host="onthemarklocations.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/staging/public_html" accessType="SFTP" username="staging" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0e49be7a-2c1c-403b-97ea-53cec2b3de55" name="Cloud - InfoIrvine" url="http://dev.infoirvine.sitesetup.net">
+        <fileTransfer host="dev.infoirvine.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/infoirvine/development/public_html" accessType="SFTP" username="infoirvine" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0b86fa67-9658-49e2-9ee0-f995bc292701" name="Cloud - ManageMs" url="http://manage-ms.com">
+        <fileTransfer host="manage-ms.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/managems/development/public_html" accessType="SFTP" username="managems" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3f599183-476a-4e5f-a4d4-d6a341f7dd61" name="Cloud - Free Choice Learning Lab (Devel)" url="http://dev.learninglab.sitesetup.net">
+        <fileTransfer host="dev.learninglab.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/learninglab/development/public_html" accessType="SFTP" username="learninglab" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="199eb734-5a07-42ee-a7f5-2122a8a9b15f" name="Cloud - Shared Server Library" url="http://shared2.servers.binaryevolution.com">
+        <fileTransfer host="shared2.servers.binaryevolution.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="32d06ade-05d2-4eef-9c05-b2fc595765aa" name="Cloud - Fluent Road" url="http://lonelyplanet.sitesetup.net">
+        <fileTransfer host="fluentroad.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/development/public_html" accessType="SFTP" username="development" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e03615ad-ae28-44c5-85ac-4e9400ff873c" name="Cloud - Sthscme Library" url="http://sthscme.sitesetup.net">
+        <fileTransfer host="sthscme.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="950651e1-f447-4536-8791-280d2956b5b2" name="Cloud - New Server Library" url="http://new.servers.mediamacros.net">
+        <fileTransfer host="new.servers.mediamacros.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="652ba152-693d-45dd-ac9d-ce5119e30934" name="Devel - MMI Wiki" url="http://mmiwiki.sitesetup.net">
+        <fileTransfer host="shared1.servers.mediamacros.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/mmiwiki/development/public_html" accessType="SFTP" username="mmiwiki" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="95c96e6c-bcec-424c-922b-a12c1a68fc79" name="Cloud - Bates" url="http://dev.bates.sitesetup.net">
+        <fileTransfer host="bates.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/bates/development/public_html" accessType="SFTP" username="bates" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f88eb8a3-fdd7-4ece-b9de-d5526cd5dbd6" name="KissyKissy Development" url="http://dev.kissykissy.sitesetup.net">
+        <fileTransfer host="dev.kissykissy.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/kissykissy/development/public_html" accessType="SFTP" username="kissykissy" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="017d74b2-d79a-4d31-8390-5c836b331b88" name="Cloud - Gist Production" url="http://gistcmeupdates.com">
+        <fileTransfer host="shared1.servers.mediamacros.net" port="22" privateKey="C:\Users\gsi03052\.ssh\Springloops" rootFolder="/mnt/home/gistcme/production/public_html" accessType="SFTP" username="gistcme" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="be672ccc-369f-4214-a515-6cae4fa13a26" name="Cloud - Coldlipo (Zeltiq) Prod" url="http://Coldlipolysiscme.com">
+        <fileTransfer host="Coldlipolysiscme.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/coldlipo" accessType="SFTP" username="coldlipo" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="430f472e-5b2c-4878-9b45-46b2df9eb8e6" name="Cloud - Coldlipo (Development)" url="http://Coldlipolysiscme.com">
+        <fileTransfer host="Coldlipolysiscme.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/coldlipo" accessType="SFTP" username="coldlipo" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="aef853f5-dbb0-43b2-9a86-638e974c6409" name="Staging - Fluent Road" url="http://lonelyplanet.sitesetup.net">
+        <fileTransfer host="fluentroad.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/staging/public_html" accessType="SFTP" username="staging" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="394ccb7d-332d-4835-b1d6-f8db51b532ef" name="Dev - Shapeup (Cordis)" url="http://dev.shapeup.sitesetup.net">
+        <fileTransfer host="dev.shapeup.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/development/public_html" accessType="SFTP" username="development" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="a3e598ba-500c-412a-a068-fd6489549da7" name="dev.csword.sitesetup.net" url="http://dev.csword.sitesetup.net">
-        <fileTransfer host="dev.csword.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/csword/development/public_html" accessType="SFTP" username="csword" keyPair="true">
+      <webServer id="7ecad7b1-41d3-4f58-a260-7c2ede0e20e9" name="Devel - Baseline" url="http://dev.baseline.sitesetup.net">
+        <fileTransfer host="shared1.servers.mediamacros.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/baseline/development/public_html" accessType="SFTP" username="baseline" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d8cdb149-ed7c-46e2-bbed-3a14aee8b71c" name="Production - Fluent Road" url="http://import.fluentroad.com">
+        <fileTransfer host="import.fluentroad.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="820f8038-87a4-4901-bde4-c92478223117" name="Devel - STHS Lib" url="http://sthslib.sitesetup.net">
+        <fileTransfer host="sthslib.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/sthslib/development/public_html" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="73fbe0b3-53d1-45fc-b6ff-0d3675ade1ac" name="Shared2" url="http://shared2">
+        <fileTransfer host="shared2" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html" accessType="SFTP" username="production" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="aeffd8df-2847-49cb-be4b-6823134ada2a" name="dev.twoslice.sitesetup.net" url="http://dev.twoslice.sitesetup.net">
-        <fileTransfer host="dev.twoslice.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/twoslice/development/public_html" accessType="SFTP" username="twoslice" keyPair="true">
+      <webServer id="497530db-5cff-456a-ad0d-6eca61c112bb" name="Hypix Development Server" url="http://mycmecredit.com">
+        <fileTransfer host="mycmecredit.com" port="21" rootFolder="/SESAPonline/CDApi" password="dfffdff7dffbdfcbdf80df81df83df9cdfd2dfebdf8cdfdf" username="mediam">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5250e08e-2ab8-4dba-8d69-924734da88da" name="Fluenz Online Production" url="http://54.221.11.52">
+        <fileTransfer host="54.221.11.52" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html/" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7501390b-75ee-4d95-a7fd-f897333ab39b" name="Dev - Welch GC FactSet" url="http://welchgc.sitesetup.net">
+        <fileTransfer host="welchgc.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/factset/bin" accessType="SFTP" username="factset" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ca124ef9-bd2d-42fa-ad17-727b3eefcfe7" name="Cloud - Irvine Production" url="http://irvinesci.com">
+        <fileTransfer host="irvinesci.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html/" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e31f7168-2e7b-4252-883d-b4a9f418ed85" name="Staging - Sandbox FactSet" url="http://sandbox.executiveengage.com">
+        <fileTransfer host="sandbox.executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/factset/bin" accessType="SFTP" username="factset" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2e6ccfc6-0a67-472e-b8a9-4e50a8197ba9" name="Cloud - EEWeb Production" url="http://executiveengage.com">
+        <fileTransfer host="update.executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/genome" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="38a21be3-60bd-4fc6-b0e3-69064ffa05d7" name="Production - EEWeb FactSet" url="http://executiveengage.com">
+        <fileTransfer host="executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/factset/bin" accessType="SFTP" username="factset" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a384f67f-2fdd-4711-a6c6-d8eaeb613878" name="Staging - Fluenz Anywhere" url="http://anywhere.fluenz.com">
+        <fileTransfer host="alphatest.fluenz.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/staging/public_html/" accessType="SFTP" username="staging" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6dad1164-1ec3-4abd-b10d-555e7cc8f8f9" name="Fluenz Production On Anywhere" url="http://anywhere.fluenz.com">
+        <fileTransfer host="anywhere.fluenz.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html/" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a53bab9c-b525-435d-ae1a-8479ef9c2b50" name="Dev - ECA" url="http://dev.energycodeace.sitesetup.net/">
+        <fileTransfer host="dev.energycodeace.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/energycodeace/development/public_html" accessType="SFTP" username="energycodeace" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="929b4140-e3be-426b-bf03-d12eb52f5d39" name="Energy Code Ace" url="http://dev.energycodeace.sitesetup.net">
+        <fileTransfer host="dev.energycodeace.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/energycodeace/development/public_html" accessType="SFTP" username="energycodeace" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="bd318a7c-ce41-43b9-a954-e8dfc96e1de2" name="csword.sitesetup.net" url="http://csword.sitesetup.net">
-        <fileTransfer host="csword.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/csword/staging/public_html" accessType="SFTP" username="csword" keyPair="true">
+      <webServer id="3dc005c9-21a9-4874-8ab4-e8dc99619713" name="Devel - UNSW Game" url="http://dev.unswgame.sitesetup.net/">
+        <fileTransfer host="dev.unswgame.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/unswgame/development/public_html" accessType="SFTP" username="unswgame" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="a409083f-84a4-4b2b-8b37-34829753b27b" name="Pinhead Web Server" url="http://104.236.224.147">
-        <fileTransfer host="104.236.224.147" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/opt/pinhead" accessType="SFTP" username="root" keyPair="true">
+      <webServer id="b1189771-f1de-4d9b-b6b2-bc6926812e07" name="IHG WP Production" url="http://dev.ihg.sitesetup.net">
+        <fileTransfer host="dev.ihg.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html" accessType="SFTP" username="production" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="34b39072-b346-4889-8a21-59bcc2c66618" name="eeweb-3.sitesetup.net" url="http://eeweb-3.sitesetup.net">
-        <fileTransfer host="eeweb-3.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/eeweb-3/staging/public_html" accessType="SFTP" username="eeweb-3" keyPair="true">
+      <webServer id="4184bf6f-f5a2-469f-aea8-0ef227d58bb5" name="EEWeb - Update" url="http://update.executiveengage.com">
+        <fileTransfer host="update.executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bce6186e-0838-45d9-9aa6-84e8175dd7b5" name="ECA Mini Site - Devel" url="http://dev.ecamini.sitesetup.net">
+        <fileTransfer host="ecamini.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\id_rsa" rootFolder="/mnt/home/ecamini/development" accessType="SFTP" username="ecamini" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="965f0a49-067e-4b65-9c54-c6fb15655234" name="dev.eeweb-3.sitesetup.net" url="http://dev.eeweb-3.sitesetup.net">
-        <fileTransfer host="dev.eeweb-3.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/eeweb-3/development/public_html" accessType="SFTP" username="eeweb-3" keyPair="true">
+      <webServer id="e934fd4c-961a-47b3-88a1-c73969b62386" name="Staging - Sthscme" url="http://sthscme.sitesetup.net">
+        <fileTransfer host="sthscme.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/sthscme/staging/" accessType="SFTP" username="sthscme" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6704a7c9-8215-499a-90b5-021a08e84c3f" name="EEWEB - Update 2" url="http://update2.executiveengage.com">
+        <fileTransfer host="update2.executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="119f08be-1f63-42c4-ac8f-ae5e6e4427e6" name="EEWeb - Production" url="http://executiveengage.com">
+        <fileTransfer host="executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/eeweb-v3/production/public_html" accessType="SFTP" username="eeweb-v3" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1af30bb9-be2a-48e9-bee0-e0df03bb2002" name="Scratchpad" url="http://shared1">
+        <fileTransfer host="shared1" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/scratchpad/development/public_html" accessType="SFTP" username="scratchpad" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="56327382-4b7f-4b52-a370-7b40216ac84a" name="dev.mike.sitesetup.net" url="http://dev.mike.sitesetup.net">
-        <fileTransfer host="dev.mike.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/mike/development/public_html" accessType="SFTP" username="mike" keyPair="true">
+      <webServer id="32d79272-94b8-4e0b-b789-453705133d2c" name="Cloud - Sths GME" url="http://dev.utgme.sthscme.com">
+        <fileTransfer host="sthscme.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/utgme/development/public_html/" accessType="SFTP" username="utgme" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ac498e36-17fb-4568-9254-435a22f0e6b8" name="ECA Staging" url="http://energycodeace.sitesetup.net">
+        <fileTransfer host="energycodeace.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/energycodeace/staging/public_html" accessType="SFTP" username="energycodeace" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="8de5e3a9-a4bf-406f-b938-12f227b3a38c" name="evolve - twoslice.sitesetup.net" url="http://twoslice.sitesetup.net">
-        <fileTransfer host="twoslice.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/twoslice/staging" accessType="SFTP" username="root" keyPair="true">
+      <webServer id="e4a6f2a4-d308-45c0-98e4-6b716eafab33" name="Fluenz Staging" url="http://staging.fluenz.com">
+        <fileTransfer host="staging.fluenz.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/staging/public_html/" accessType="SFTP" username="staging" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a31366a0-dbdc-405f-8b94-fb76be125390" name="Shane - Site 1" url="http://shane1.codemonkey.codes">
+        <fileTransfer host="shane1.codemonkey.codes" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/shane/development/public_html" accessType="SFTP" username="shane" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="c285f667-8c48-4768-99dc-e415735f6418" name="twoslice.sitesetup.net" url="http://twoslice.sitesetup.net">
-        <fileTransfer host="twoslice.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/twoslice/staging" accessType="SFTP" username="twoslice" keyPair="true">
+      <webServer id="67d882b4-5435-4734-acfc-c5ca1b68871d" name="EE Web - Update" url="http://update.executiveengage.com">
+        <fileTransfer host="update.executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/factset/bin" accessType="SFTP" username="factset" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="21ba20b1-3644-453b-94c2-edd4e7da0509" name="Shane - Other" url="http://shane.codes">
+        <fileTransfer host="shane.codes" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/shane/lib" accessType="SFTP" username="shane" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="b8caef92-6eea-47b4-84bf-b0dd652f58b2" name="qa.eeweb-3.sitesetup.net" url="http://qa.eeweb-3.sitesetup.net">
-        <fileTransfer host="qa.eeweb-3.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/eeweb-3/qa/public_html" accessType="SFTP" username="eeweb-3" keyPair="true">
+      <webServer id="45c012ba-cad2-4f0c-83a1-334045cd2b3c" name="IHG WP Staging" url="http://ihg.sitesetup.net">
+        <fileTransfer host="ihg.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/staging/public_html" accessType="SFTP" username="staging" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="ee540933-52b5-4b16-89ec-b2c663fa8890" name="dev.learninglab.sitesetup.net" url="http://dev.learninglab.sitesetup.net">
-        <fileTransfer host="dev.learninglab.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/learninglab/development/public_html" accessType="SFTP" username="learninglab" keyPair="true">
+      <webServer id="8a56a61b-3806-4cc7-8caf-ee5ac29ee656" name="QA1" url="http://shared1">
+        <fileTransfer host="shared1" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/qa/development/public_html" accessType="SFTP" username="qa" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="2a0fb989-3f42-44c9-8a4b-518f30b4d05c" name="dev.nickb.sitesetup.net" url="http://dev.nickb.sitesetup.net">
-        <fileTransfer host="dev.nickb.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/nickb/development/public_html" accessType="SFTP" username="nickb" keyPair="true">
+      <webServer id="72fb47dd-8a65-478a-8d05-77e35d067796" name="Shane - Site 2" url="http://shane2.codemonkey.codes">
+        <fileTransfer host="shane2.codemonkey.codes" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/shane/staging/public_html" accessType="SFTP" username="shane" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="e4c5f1c0-1383-4a6f-9517-779c588fd51d" name="Product Development Wiki Test Server" url="http://pdw.mediamacros.net">
-        <fileTransfer host="pdw.mediamacros.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/html" accessType="SFTP" username="root" keyPair="true">
+      <webServer id="96408aeb-282a-499d-9b7c-16201ecc7dbf" name="MMI Wiki Dev" url="http://shared1">
+        <fileTransfer host="shared1" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/mmiwiki/development/public_html" accessType="SFTP" username="mmiwiki" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="2f099aae-c700-4b04-8f5e-9fe220185a61" name="dev.concept-portal.sitesetup.net" url="http://dev.concept-portal.sitesetup.net">
-        <fileTransfer host="dev.concept-portal.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/concept-portal/development/public_html" accessType="SFTP" username="concept-portal" keyPair="true">
+      <webServer id="d022aa93-fbc8-4d9f-97d6-3d62d7dbb102" name="Staging - MMI Wiki" url="http://mmiwiki.sitesetup.net">
+        <fileTransfer host="shared1.servers.mediamacros.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/mmiwiki/staging/public_html" accessType="SFTP" username="mmiwiki" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="11ba6a74-cfbd-4ef4-9ff9-a01b4c5a30aa" name="MMI - Production" url="http://mediamacros.net">
+        <fileTransfer host="mediamacros.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/mmi-website/production/public_html" accessType="SFTP" username="mmi-website" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="74156718-9df2-485a-8a3b-ea9e1d3890cc" name="genome.projectplog.com" url="http://genome.projectplog.com">
-        <fileTransfer host="genome.projectplog.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/" accessType="SFTP" username="www-data" keyPair="true">
+      <webServer id="728ea1c4-1b74-41f3-aac7-bcc972e399a9" name="Charter Oak Devel" url="http://charter-oak.sitesetup.net">
+        <fileTransfer host="charter-oak.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/charteroak/development/public_html" accessType="SFTP" username="charteroak" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="9e6a26f8-4ba1-4707-accc-6ebe941b8953" name="localhost" url="http://localhost">
-        <fileTransfer mountedRoot="/var/www/html" accessType="MOUNT" />
+      <webServer id="5ca15d84-23f7-48b9-908f-29db69c4d477" name="Fluenz Import Production" url="http://import.fluenz.com">
+        <fileTransfer host="import.fluenz.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html/" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="81aa4370-723a-4651-8887-30bfd66ec628" name="Fluenz - Online Array" url="http://54.160.176.71">
+        <fileTransfer host="54.160.176.71" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html/" accessType="SFTP" username="production" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f7daa330-a8d4-47dc-879d-b0881f3780d8" name="Devel - IrvineSci" url="http://irvinesci.com">
+        <fileTransfer host="irvinesci.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/development/public_html" accessType="SFTP" username="development" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f1cd909c-37ab-456a-96eb-e242103c9d72" name="Staging - IrvineSci" url="http://irvinesci.com">
+        <fileTransfer host="irvinesci.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/staging/public_html" accessType="SFTP" username="staging" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d55e0579-c194-4b43-8ea2-fcd8511e50b2" name="EE Web 3 Development" url="http://dev.eeweb-3.sitesetup.net">
+        <fileTransfer host="dev.eeweb-3.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/eeweb-3/development/public_html" accessType="SFTP" username="eeweb-3" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8bc780db-b1ee-40fd-aac0-61cb0153c994" name="NFProperty.com" url="http://ftp.onetruesentence.net">
+        <fileTransfer host="ftp.onetruesentence.net" port="21" rootFolder="/NFproperty.com" password="dff8df98dfd4dfffdfc7df89dfdddfd9df83dfccdf9fdfe7dfc4df91df93" username="castimirr@onetruesentence.net">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3e41396a-faf2-4135-a5d4-6123753d89b9" name="Production - Irvine Sci" url="http://irvinesci.com">
+        <fileTransfer host="irvinesci.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html" accessType="SFTP" username="production" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f00a7385-64b5-4121-b31d-405e8b8795f8" name="Shane - Site 1 Cron" url="http://shane1.codemonkey.codes">
+        <fileTransfer host="shane1.codemonkey.codes" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/shane/development/factset/bin" accessType="SFTP" username="shane" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3584a359-d65f-41fb-bf0e-050cd85c4e3b" name="Mike Staging Area" url="http://dev.eeweb-3.sitesetup.net">
+        <fileTransfer host="sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/mike/staging/public_html" accessType="SFTP" username="mike" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="68b340ca-1218-4ea6-a24c-2413e78b6e97" name="Mike Dev Area" url="http://dev.eeweb-3.sitesetup.net">
+        <fileTransfer host="sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/mike/development/public_html" accessType="SFTP" username="mike" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6b3d941d-39bb-4549-9fec-857116983dd4" name="Rockstar - Development" url="http://shane1.codemonkey.codes">
+        <fileTransfer host="shane1.codemonkey.codes" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/rockstarlit/development/public_html" accessType="SFTP" username="rockstarlit" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f15547d5-ad4a-472c-80ed-ea225100fce5" name="UTGME - Staging" url="http://dev.utgme.sthscme.com">
+        <fileTransfer host="sthscme.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/utgme/staging/public_html/" accessType="SFTP" username="utgme" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1af4dc96-5863-482f-8811-978c6ff36c66" name="CauseActive Development" url="http://dev.causeactive.sitesetup.net">
+        <fileTransfer host="shane2.codemonkey.codes" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/causeactive/development/public_html" accessType="SFTP" username="causeactive" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fd723436-1b26-4b8f-bf59-36c9b706d781" name="EE Web V3 Production" url="http://v3.executiveengage.com">
+        <fileTransfer host="v3.executiveengage.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/production/public_html" accessType="SFTP" username="production" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="662d316f-3c9c-462b-8f02-c9352466ea6f" name="UTGME - Production" url="http://dev.utgme.sthscme.com">
+        <fileTransfer host="sthscme.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/utgme/production/public_html/" accessType="SFTP" username="utgme" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0296b8c6-8353-4713-9914-edd091870478" name="allie.sitesetup.net" url="http://allie.sitesetup.net">
+        <fileTransfer host="allie.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/allie/development/" accessType="SFTP" username="allie" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0aa3cf5f-e08d-44fb-b377-95ffc575f3f6" name="IHG Concept Portal - Development" url="http://dev.concept-portal.sitesetup.net">
+        <fileTransfer host="dev.concept-portal.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/concept-portal/development/public_html" accessType="SFTP" username="concept-portal" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b1522cf0-81f5-4078-9bd4-54328992fc9b" name="IHG Concept Portal - Staging" url="http://dev.concept-portal.sitesetup.net">
+        <fileTransfer host="dev.concept-portal.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/concept-portal/staging/public_html" accessType="SFTP" username="concept-portal" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4acb1daf-81bb-476b-951e-3a0e18abef1b" name="Fluenz Core Master Server" url="http://node.master.fluenz.com">
+        <fileTransfer host="node.master.fluenz.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4fc6afb4-ff97-4e0e-8d7f-071a1ff226b5" name="54.163.7.128" url="http://54.147.39.220">
+        <fileTransfer host="54.147.39.220" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" accessType="SFTP" username="root" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="44175377-413e-4fca-9bf5-615b3740c141" name="Dev Binary Evolution" url="http://dev.binary-evolution.sitesetup.net">
+        <fileTransfer host="dev.binary-evolution.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/binary-evolution/development/public_html" accessType="SFTP" username="binary-evolution" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1d81aec5-5c07-4e58-bd3c-0c8a85c0106f" name="KissyKissy Staging" url="http://kissykissy.sitesetup.net">
+        <fileTransfer host="kissykissy.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/kissykissy/staging/public_html" accessType="SFTP" username="kissykissy" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="afed69bb-5771-48d8-8ba0-7af759b39686" name="STHSCME - Development" url="http://dev.sthscme.sitesetup.net">
+        <fileTransfer host="dev.sthscme.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/sthscme/development/public_html" accessType="SFTP" username="sthscme" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3f5cfe21-a0d1-45bc-a3de-b15685f94956" name="KissyKissy Production" url="http://kissykissyonline.com">
+        <fileTransfer host="shared2" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/kissykissy/production/public_html" accessType="SFTP" username="kissykissy" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="eb58d4d6-46eb-4e48-be2a-1c5916f686a2" name="STHSCME New Production" url="http://sthsnew.sitesetup.net">
+        <fileTransfer host="sthsnew.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/sthscme/production/public_html" accessType="SFTP" username="sthscme" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="030e983d-251c-4951-aef5-deb11526d222" name="Staginig - ECA" url="http://energycodeace.sitesetup.net/">
+        <fileTransfer host="energycodeace.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/energycodeace/staging/public_html" accessType="SFTP" username="energycodeace" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="082abb34-9eea-4d93-8cd7-2218de7d61fe" name="KissyKissy - Michael" url="http://mwhite.kissykissy.sitesetup.net">
+        <fileTransfer host="mwhite.kissykissy.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/kissykissy/mwhite/public_html" accessType="SFTP" username="kissykissy" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="75992970-0508-4e4f-bcf9-334782f88dfd" name="KissyKissy - QA" url="http://qa.kissykissy.sitesetup.net">
+        <fileTransfer host="qa.kissykissy.sitesetup.net" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/kissykissy/qa/public_html" accessType="SFTP" username="kissykissy" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="799be87b-78da-4e09-84a2-319659c50ce1" name="ComNashville (UT-GME) dev-mwhite" url="http://mwhite.comnashville.sitesetup.net">
+        <fileTransfer host="nest" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/comnashville/mwhite/public_html/" accessType="SFTP" username="comnashville" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7249d7ae-8bc8-418a-b0e9-4748e874ed83" name="STHS Dev (Nick)" url="http://nick.sthscme.devdrawer.com">
+        <fileTransfer host="nick.sthscme.devdrawer.com" port="22" privateKey="C:\Users\gsi03052\.ssh\MMI" rootFolder="/mnt/home/sthscme/nick/public_html/" accessType="SFTP" username="sthscme" keyPair="true">
+          <option name="port" value="22" />
+        </fileTransfer>
       </webServer>
     </option>
   </component>

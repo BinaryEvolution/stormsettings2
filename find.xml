@@ -1,8 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Eco" />
-    <option name="defaultScopeName" value="Eco" />
-    <option name="SEARCH_SCOPE" value="Eco" />
+    <option name="customScope" value="selection" />
+    <option name="defaultScopeName" value="selection" />
+    <option name="fromCursor" value="false" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="FIND_ORIGIN" value="entire_scope" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="selection" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -10,12 +14,10 @@
       <mask>*.xml</mask>
       <mask>*.java</mask>
       <mask>*.as</mask>
-      <mask>*.mxml</mask>
       <mask>*.css</mask>
-      <mask>*.php</mask>
-      <mask>*.scss</mask>
+      <mask>*.mxml</mask>
       <mask>*.js</mask>
-      <mask>*.tpl</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
