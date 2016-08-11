@@ -14,4 +14,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name=";query" value="$sql = &lt;&lt;&lt;SQL&#10;SELECT *&#10;FROM item&#10;WHERE 1&#10;SQL;&#10;&#10;$results = core::query(new rawquery($sql))['results_assoc'];&#10;#$result = count($results) ? reset($results) : false;&#10;foreach($results as $result) {&#10;    // todo code here&#10;}" description="Genome query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
