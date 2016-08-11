@@ -1,8 +1,0 @@
-<application>
-  <component name="ExternalResourceManagerImpl">
-    <resource url="http://api.seafalcon.co/detailedItemPrices.xsd" location="$USER_HOME$/.PhpStorm2016.1/system/extResources/3d622bb7_detailedItemPrices.xsd" />
-    <resource url="http://www.w3.org/2000/09/xmldsig#" location="$USER_HOME$/.PhpStorm2016.1/system/extResources/3ddbaac8_xmldsig#.xml" />
-    <resource url="urn:oasis:names:tc:SAML:2.0:assertion" location="C:/Downloads/saml-schema-metadata-2.0.xsd" />
-    <resource url="urn:oasis:names:tc:SAML:2.0:protocol" location="C:/Downloads/saml-schema-metadata-2.0.xsd" />
-  </component>
-</application>

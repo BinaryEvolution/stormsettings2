@@ -6,78 +6,10 @@
           <State>
             <id />
           </State>
-          <State>
-            <id>HTML</id>
-          </State>
-          <State>
-            <id>PHP</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>HtmlExtraClosingTag</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-    <entry key="MMI Settings">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Code SmellPHP</id>
-          </State>
-          <State>
-            <id>Code StylePHP</id>
-          </State>
-          <State>
-            <id>Control FlowPHP</id>
-          </State>
-          <State>
-            <id>GeneralPHP</id>
-          </State>
-          <State>
-            <id>JSON</id>
-          </State>
-          <State>
-            <id>PHP</id>
-          </State>
-          <State>
-            <id>PHPDocPHP</id>
-          </State>
-          <State>
-            <id>Probable bugsPHP</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>Type compatibilityPHP</id>
-          </State>
-          <State>
-            <id>UndefinedPHP</id>
-          </State>
-          <State>
-            <id>UnusedPHP</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-          <State>
-            <id>XSLT</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PhpUndefinedClassInspection</id>
+            <id>JavaScript</id>
           </State>
         </selected-state>
       </profile-state>
@@ -88,23 +20,17 @@
           <State>
             <id />
           </State>
-          <State>
-            <id>Code StylePHP</id>
-          </State>
-          <State>
-            <id>PHP</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Bash</id>
+            <id>JavaScript</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
   <component name="CodeStyleSchemes">
-    <option name="CURRENT_SCHEME_NAME" value="Shane" />
+    <option name="CURRENT_SCHEME_NAME" value="Default" />
   </component>
   <component name="CvsApplicationLevelConfiguration">
     <option name="EXT_CONFIGURATION">
@@ -142,7 +68,7 @@
         <option name="PATH_TO_PPK" value="" />
       </value>
     </option>
-    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+    <option name="PATH_TO_PASSWORD_FILE" />
     <option name="TIMEOUT" value="10" />
     <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
     <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
@@ -154,173 +80,41 @@
     <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
     <option name="SHOW_PATH" value="true" />
   </component>
-  <component name="DuplocatorSettings">
-    <option name="SELECTED_PROFILES">
-      <set>
-        <option value="PHP" />
-      </set>
-    </option>
-    <option name="LAST_SELECTED_LANGUAGE" value="PHP" />
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/bin/node" />
   </component>
-  <component name="ErrorReportConfigurable">
-    <option name="ITN_LOGIN" value="shane@mediamacros.net" />
-    <option name="ITN_PASSWORD_CRYPT" value="T2N0MTMhI1hJSUk=" />
-    <option name="KEEP_ITN_PASSWORD" value="true" />
-    <option name="EMAIL" value="" />
-  </component>
-  <component name="NativeNeighbourhoodPlugin">
-    <iconsDir value="windows" />
-    <executeWithDefaultAppCommand value="rundll32.exe url.dll,FileProtocolHandler $FilePath$" tokenizerDelims="" />
-    <showInFileManagerCommand value="explorer.exe /select,$FilePath$" tokenizerDelims="" />
-    <openCommandShellInCommand value="cmd /c &quot;$PluginsHome$\NativeNeighbourhood\classes\org\intellij\plugins\nativeNeighbourhood\icons\windows\cmd.bat&quot;" tokenizerDelims="" />
-    <selectInFileManagerName value="Windows Explorer" />
-    <nativeExtensions value="" />
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="/usr/local/bin/node" version="4.2.6" last-modified="1453400911000" />
   </component>
   <component name="PhpRefactoringSettings">
     <option name="RENAME_PARAMETERS" value="false" />
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="true" />
     <option name="RENAME_SEARCH_NON_CODE_FOR_CLASS" value="true" />
-    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CONSTANT" value="true" />
-    <option name="RENAME_SEARCH_NON_CODE_FOR_CONSTANT" value="true" />
-    <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="protected" />
-    <option name="EXTRACT_FIELD_DEFAULT_VISIBILITY" value="protected" />
-  </component>
-  <component name="PluginManagerConfigurable" proportions="" version="1">
-    <option name="AVAILABLE_SORT_MODE" value="0" />
-    <option name="AVAILABLE_SORT_BY_STATUS" value="false" />
-    <option name="myOutdatedPlugins">
-      <value>
-        <list size="0" />
-      </value>
-    </option>
-    <option name="myInstalledPlugins">
-      <value>
-        <list size="3">
-          <item index="0" class="java.lang.String" itemvalue="BashSupport" />
-          <item index="1" class="java.lang.String" itemvalue="Base64 for IDEA and Storm" />
-          <item index="2" class="java.lang.String" itemvalue="Scratch" />
-        </list>
-      </value>
-    </option>
-    <available-proportions proportions="" version="1" />
-  </component>
-  <component name="PsiViewerSettings">
-    <option name="type" value="PHP file" />
-    <option name="textDividerLocation" value="196" />
-  </component>
-  <component name="RecentTaskRepositories">
-    <Lighthouse shared="false" url="https://mediamacros.lighthouseapp.com">
-      <option name="APIKey" value="bce0c88f827b2c76e388c1b5ba1498f793ca49ad" />
-      <password />
-      <option name="projectId" value="56569-silvermoss-partners-quiz-and-slide-engin_100616" />
-      <option name="useHttpAuthentication" value="false" />
-      <option name="useProxy" value="false" />
-      <username />
-    </Lighthouse>
-  </component>
-  <component name="SvnApplicationSettings">
-    <option name="myCheckoutURLs">
-      <list>
-        <option value="https://mediamacros.slsapp.com/source/cordiswebsite_111103-thomas/trunk/" />
-        <option value="https://mediamacros.slsapp.com/source/ssi111128-fertilityupdates/trunk" />
-        <option value="https://mediamacros.slsapp.com/source/fluenzwebsite/trunk/" />
-        <option value="https://mediamacros.slsapp.com/source/gist_111128/trunk" />
-        <option value="https://mediamacros.slsapp.com/source/fluenzwebsite/trunk" />
-        <option value="https://mediamacros.slsapp.com/source/mediamacros/trunk/Media Macros/" />
-        <option value="https://mediamacros.slsapp.com/source/strandframework/trunk/" />
-        <option value="https://mediamacros.slsapp.com/source/classroom_110825-directoronlinestorage/trunk" />
-        <option value="https://mediamacros.slsapp.com/source/beardboy/trunk/" />
-        <option value="https://mediamacros.slsapp.com/source/gwagen/trunk/" />
-        <option value="https://mediamacros.slsapp.com/source/businessownerspace/trunk" />
-        <option value="http://killersoft.googlecode.com/svn/trunk" />
-      </list>
-    </option>
-    <option name="myTypedURLs">
-      <list>
-        <option value="https://mediamacros.slsapp.com/source/cordiswebsite_111103-thomas/trunk/" />
-        <option value="https://mediamacros.slsapp.com/source/classroom_110825-directoronlinestorage/trunk" />
-        <option value="https://mediamacros.slsapp.com/source/beardboy/trunk/" />
-        <option value="https://mediamacros.slsapp.com/source/gwagen/trunk/" />
-        <option value="https://mediamacros.slsapp.com/source/businessownerspace/trunk" />
-        <option value="https://mediamacros.springloops.com/source/licensing/trunk" />
-        <option value="https://mediamacros.springloops.com/source/fluenzlicensing/trunk" />
-        <option value="https://mediamacros.springloops.com/source/bates_110124/trunk" />
-        <option value="https://mediamacros.springloops.com/source/bates110124/trunk" />
-        <option value="https://mediamacros.springloops.com/source/bates110124/" />
-        <option value="https://mediamacros.springloops.com/source/sthscmesitesrohmann_110112/trunk" />
-        <option value="https://mediamacros.springloops.com/source/sthscmesitesrohmann_110112/trunk\" />
-        <option value="https://mediamacros.springloops.com/source/sthscmesitesrohmann_110112" />
-        <option value="https://mediamacros.springloops.com/source/sthscmesitesrohmann_110112/trunk/" />
-        <option value="https://mediamacros.springloops.com/source/onthemarklocations" />
-        <option value="https://mediamacros.springloops.com/source/fluenz" />
-        <option value="https://mediamacros.springloops.com/source/bos" />
-        <option value="https://mediamacros.springloops.com/source/businessownerspace" />
-        <option value="http://killersoft.googlecode.com/svn/trunk" />
-        <option value="http://killersoft.googlecode.com/svn/trunk/" />
-      </list>
-    </option>
-  </component>
-  <component name="SvnBranchMapperManager">
-    <option name="myMapping">
-      <map>
-        <entry key="https://mediamacros.slsapp.com/source/genome/dnacore/trunk">
-          <value>
-            <set>
-              <option value="C:\MediaMacros\Genome" />
-            </set>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="TabdirConfiguration">
-    <option name="charsInName" value="5" />
-    <option name="countMaxDirsFromStart" value="true" />
-    <option name="dirSeparator" value="|" />
-    <option name="filesExtensions" value="" />
-    <option name="maxDirsToShow" value="3" />
-    <option name="projectConfigEnabled" value="false" />
-    <option name="reduceDirNames" value="true" />
-    <option name="relativeTo" />
-    <option name="removeDuplicates" value="false" />
-    <option name="titleFormat" value="[{0}] {1}" />
-    <option name="useExtensions" value="Do not use" />
   </component>
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
     <recent_templates>
       <option name="RECENT_TEMPLATES">
         <value>
-          <list size="11">
-            <item index="0" class="java.lang.String" itemvalue="PHP Package Class" />
-            <item index="1" class="java.lang.String" itemvalue="PHP External Singleton Wrapper Class" />
-            <item index="2" class="java.lang.String" itemvalue="PHP External Wrapper Class" />
-            <item index="3" class="java.lang.String" itemvalue="PHP Singleton Class" />
-            <item index="4" class="java.lang.String" itemvalue="PHP Exception Class" />
-            <item index="5" class="java.lang.String" itemvalue="PHP Item Object - Core" />
-            <item index="6" class="java.lang.String" itemvalue="PHP Core Item Object" />
-            <item index="7" class="java.lang.String" itemvalue="PHP Relationship Trait" />
-            <item index="8" class="java.lang.String" itemvalue="PHP Standard Class" />
-            <item index="9" class="java.lang.String" itemvalue="PHP Item Object - Dummy" />
-            <item index="10" class="java.lang.String" itemvalue="PHP Item Object" />
-          </list>
+          <list size="0" />
         </value>
       </option>
     </recent_templates>
   </component>
   <component name="com.intellij.javaee.ExternalResourceManagerExImpl">
-    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
-    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="com.intellij.javaee.ExternalResourceManagerImpl">
-    <resource url="http://www.w3.org/2007/XMLSchema-versioning" location="C:/MediaMacros/Genome 2.5/site/core/resources/xml/XMLSchema-versioning.xsd" />
+    <resource url="http://schemas.mediamacros.net/genome-site-settings" location="/Projects/Genome-2.x/_genome-repository/site/core/resources/xml/genome-site-settings.xsd" />
+    <resource url="http://schemas.mediamacros.net/genome-user-settings" location="/Projects/Genome-2.x/_genome-repository/site/core/resources/xml/genome-user-settings.xsd" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
@@ -331,12 +125,5 @@
     <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
-    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
-  </component>
-  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Ignore spaces">
-    <enableFiles value="true" />
-    <enableFolders value="true" />
-    <filesTool value="C:\Program Files\Araxis\Araxis Merge\Merge.exe" newValue="C:\Program Files\Araxis\Araxis Merge\Merge.exe" />
-    <foldersTool value="C:\Program Files\Araxis\Araxis Merge\Merge.exe" newValue="C:\Program Files\Araxis\Araxis Merge\Merge.exe" />
   </component>
 </application>
