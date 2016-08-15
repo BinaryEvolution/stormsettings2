@@ -1,0 +1,11 @@
+<keymap version="1" name="My Custom Keymap" parent="Mac OS X 10.5+">
+  <action id="EditorToggleCase" />
+  <action id="GotoSuperMethod" />
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="PublishGroup.UploadTo">
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
+</keymap>
