@@ -10,4 +10,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name=";query" value="$sql = &quot;&quot;;&#10;$query = new rawquery($sql);&#10;$rawResults = core::query($query);&#10;if($rawResults['error']) {&#10;    /*$this-&gt;debug([&#10;    core::debug([&#10;        'message' =&gt; 'Query error message: '.$rawResults['error_message'],&#10;        'results' =&gt; $rawResults,&#10;    ], 'Util', DEBUG_ERROR);*/&#10;    $e = new \Genome\Exceptions\Runtime\QueryException('Query error message: '.$rawResults['error_message'], \Genome\Exceptions\Runtime\QueryException::OPERATION_FAILED);&#10;    throw $e-&gt;setResultsArray($rawResults);&#10;}&#10;$results = $rawResults['results_assoc'];" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
