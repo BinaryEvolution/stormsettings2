@@ -5,4 +5,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="NL" value="PHP_EOL;" description="New Line Constant" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
