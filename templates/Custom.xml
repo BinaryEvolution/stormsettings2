@@ -1,0 +1,9 @@
+<templateSet group="Custom">
+  <template name="dpro" value="{dataprop name='$NAME$' value=[$VALUE$]}" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
