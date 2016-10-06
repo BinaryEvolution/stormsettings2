@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Eco" />
-    <option name="defaultScopeName" value="Eco" />
-    <option name="SEARCH_SCOPE" value="Eco" />
+    <option name="customScope" value="File '.../site/custom/server/Genome/Traits/DocumentTypeTrait.php - [First Environmental]'" />
+    <option name="defaultScopeName" value="File '.../site/custom/server/Genome/Traits/DocumentTypeTrait.php - [First Environmental]'" />
+    <option name="SEARCH_SCOPE" value="File '.../site/custom/server/Genome/Traits/DocumentTypeTrait.php - [First Environmental]'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
