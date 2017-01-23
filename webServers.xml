@@ -126,14 +126,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="74156718-9df2-485a-8a3b-ea9e1d3890cc" name="genome.projectplog.com" url="http://genome.projectplog.com">
-        <fileTransfer host="genome.projectplog.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/" accessType="SFTP" username="www-data" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="9e6a26f8-4ba1-4707-accc-6ebe941b8953" name="localhost" url="http://localhost">
         <fileTransfer mountedRoot="/var/www/html" accessType="MOUNT" />
       </webServer>
