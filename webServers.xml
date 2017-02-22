@@ -129,6 +129,14 @@
       <webServer id="9e6a26f8-4ba1-4707-accc-6ebe941b8953" name="localhost" url="http://localhost">
         <fileTransfer mountedRoot="/var/www/html" accessType="MOUNT" />
       </webServer>
+      <webServer id="58277edf-f3a3-4105-8927-2b3e2eeba728" name="local-energy.sitesetup.net" url="http://local-energy.sitesetup.net">
+        <fileTransfer host="local-energy.sitesetup.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
