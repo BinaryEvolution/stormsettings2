@@ -2,18 +2,19 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping ext="cocoascript" type="JavaScript" />
       <mapping pattern="*.less.css" type="Less" />
       <mapping pattern="make" type="PHP" />
       <mapping pattern="ev" type="PHP" />
-      <mapping pattern="fix-permissions" type="PLAIN_TEXT" />
-      <mapping pattern=".placeholder" type="PLAIN_TEXT" />
-      <mapping pattern="update" type="PLAIN_TEXT" />
-      <mapping pattern="pre-install" type="PLAIN_TEXT" />
-      <mapping pattern="aws_rsa" type="PLAIN_TEXT" />
-      <mapping pattern="wp" type="PLAIN_TEXT" />
-      <mapping pattern=".timezone" type="PLAIN_TEXT" />
       <mapping pattern="compalless" type="PLAIN_TEXT" />
+      <mapping pattern="update" type="PLAIN_TEXT" />
       <mapping pattern="install" type="PLAIN_TEXT" />
+      <mapping pattern=".placeholder" type="PLAIN_TEXT" />
+      <mapping pattern="fix-permissions" type="PLAIN_TEXT" />
+      <mapping pattern="wp" type="PLAIN_TEXT" />
+      <mapping pattern="pre-install" type="PLAIN_TEXT" />
+      <mapping pattern=".timezone" type="PLAIN_TEXT" />
+      <mapping pattern="aws_rsa" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping pattern="*.less.css" type="LESS" />
     </extensionMap>
