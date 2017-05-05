@@ -8,4 +8,30 @@
     <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
     <option name="REFRAIN_FROM_SCROLLING" value="true" />
   </component>
+  <component name="InspectionProfileManager">
+    <info color="ebc700">
+      <option name="BACKGROUND" value="f6ebbc" />
+      <option name="ERROR_STRIPE_COLOR" value="ebc700" />
+      <option name="EFFECT_TYPE" value="1" />
+      <option name="myName" value="INFORMATION" />
+      <option name="myVal" value="50" />
+      <option name="myExternalName" value="INFORMATION" />
+    </info>
+    <info color="ebc700">
+      <option name="BACKGROUND" value="f6ebbc" />
+      <option name="ERROR_STRIPE_COLOR" value="ebc700" />
+      <option name="EFFECT_TYPE" value="1" />
+      <option name="myName" value="Documentation Error" />
+      <option name="myVal" value="50" />
+      <option name="myExternalName" value="Documentation Error" />
+    </info>
+    <info color="ebc700">
+      <option name="BACKGROUND" value="f6ebbc" />
+      <option name="ERROR_STRIPE_COLOR" value="ebc700" />
+      <option name="EFFECT_TYPE" value="1" />
+      <option name="myName" value="Legacy Code Error" />
+      <option name="myVal" value="50" />
+      <option name="myExternalName" value="Legacy Code Error" />
+    </info>
+  </component>
 </application>
