@@ -1,5 +1,5 @@
 <templateSet group="Custom">
-  <template name="dpro" value="{dataprop name='$NAME$' value=[$VALUE$]}" toReformat="false" toShortenFQNames="true">
+  <template name="dpro" value="{dataprop name='$NAME$' value=[$VALUE$]}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
