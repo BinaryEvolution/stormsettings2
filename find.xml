@@ -13,9 +13,14 @@
       <mask>*.mxml</mask>
       <mask>*.css</mask>
       <mask>*.php</mask>
-      <mask>*.scss</mask>
       <mask>*.js</mask>
       <mask>*.tpl</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.s</mask>
+      <mask>*.sc</mask>
+      <mask>*.scs</mask>
+      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
