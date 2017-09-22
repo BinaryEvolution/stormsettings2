@@ -1,0 +1,8 @@
+<templateSet group="html/xml">
+  <template name="jayson" value="&lt;textarea&gt;{json_encode($VAR$)}&lt;/textarea&gt;&lt;br&gt;&#10;$END$" description="Send to JSON in textarea for use with jayson" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
