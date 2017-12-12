@@ -16,6 +16,7 @@
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="compalless" type="PLAIN_TEXT" />
       <mapping pattern="install" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping pattern="*.less.css" type="LESS" />
