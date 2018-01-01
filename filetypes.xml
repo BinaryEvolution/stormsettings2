@@ -12,6 +12,7 @@
       <mapping pattern="aws_rsa" type="PLAIN_TEXT" />
       <mapping pattern=".timezone" type="PLAIN_TEXT" />
       <mapping pattern="pre-install" type="PLAIN_TEXT" />
+      <mapping pattern="merge-wedbings" type="PLAIN_TEXT" />
       <mapping pattern="wp" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="othify" type="PLAIN_TEXT" />
