@@ -14,6 +14,7 @@
       <mapping pattern="pre-install" type="PLAIN_TEXT" />
       <mapping pattern="wp" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern="othify" type="PLAIN_TEXT" />
       <mapping pattern="compalless" type="PLAIN_TEXT" />
       <mapping pattern="install" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
