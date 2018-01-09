@@ -18,6 +18,7 @@
       <mapping pattern="othify" type="PLAIN_TEXT" />
       <mapping pattern="compalless" type="PLAIN_TEXT" />
       <mapping pattern="install" type="PLAIN_TEXT" />
+      <mapping ext="version" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping ext="hgt" type="PLAIN_TEXT" />
