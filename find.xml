@@ -16,10 +16,7 @@
       <mask>*tp</mask>
       <mask>*tpl</mask>
       <mask>*.p</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.j</mask>
-      <mask>*.js</mask>
       <mask>.</mask>
       <mask>.p</mask>
       <mask>.ph</mask>
@@ -34,6 +31,9 @@
       <mask>*.php*.tpl</mask>
       <mask>*.php,*.tpl</mask>
       <mask>*.php, *.tpl</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
