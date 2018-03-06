@@ -1,23 +1,13 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js" />
+    <option name="FILE_MASK" value="*.tpl,*.php" />
     <recentFileMasks>
-      <mask>*.mxml</mask>
-      <mask>*.css</mask>
-      <mask>*.s</mask>
-      <mask>*.sc</mask>
-      <mask>*.scs</mask>
-      <mask>*.scss</mask>
-      <mask>*.tpl</mask>
-      <mask>*.tp</mask>
-      <mask>*.t</mask>
-      <mask>*tp</mask>
-      <mask>*tpl</mask>
       <mask>*.p</mask>
-      <mask>*.j</mask>
       <mask>.</mask>
       <mask>.p</mask>
       <mask>.ph</mask>
@@ -33,8 +23,20 @@
       <mask>*.php,*.tpl</mask>
       <mask>*.php, *.tpl</mask>
       <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.js</mask>
+      <mask>*.j</mask>
+      <mask>*.</mask>
+      <mask>*.t</mask>
+      <mask>*.tp</mask>
+      <mask>*.tpl</mask>
+      <mask>*.tpl</mask>
+      <mask>*.tpl *</mask>
+      <mask>*.tpl *.</mask>
+      <mask>*.tpl *.p</mask>
+      <mask>*.tpl *.ph</mask>
+      <mask>*.tpl *.php</mask>
+      <mask>*.tpl*.php</mask>
+      <mask>*.tpl,*.php</mask>
     </recentFileMasks>
   </component>
 </application>
