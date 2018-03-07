@@ -10,7 +10,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="query" value="$sql = &quot;&quot;;&#10;$query = new rawquery($sql);&#10;$rawResults = core::query($query);&#10;if($rawResults['error']) {&#10;    /*$this-&gt;debug([&#10;    core::debug([&#10;        'message' =&gt; 'Query error message: '.$rawResults['error_message'],&#10;        'results' =&gt; $rawResults,&#10;    ], 'Util', DEBUG_ERROR);*/&#10;    $e = new \Genome\Exceptions\Runtime\QueryException('Query error message: '.$rawResults['error_message'], \Genome\Exceptions\Runtime\QueryException::OPERATION_FAILED);&#10;    throw $e-&gt;setResultsArray($rawResults);&#10;}&#10;$results = $rawResults['results_assoc'];" description="" toReformat="true" toShortenFQNames="true">
+  <template name="query" value="$sql = &lt;&lt;&lt;SQL&#10;SELECT COUNT(field) as targetName&#10;FROM `table`&#10;WHERE 1&#10;SQL;&#10;&#10;$query = new rawquery($sql);&#10;$rawResults = core::query($query);&#10;if($rawResults['error']) {&#10;    /*$this-&gt;debug([&#10;    core::debug([&#10;        'message' =&gt; 'Query error message: '.$rawResults['error_message'],&#10;        'results' =&gt; $rawResults,&#10;    ], 'Util', DEBUG_ERROR);*/&#10;    $e = new \Genome\Exceptions\Runtime\QueryException('Query error message: '.$rawResults['error_message'], \Genome\Exceptions\Runtime\QueryException::OPERATION_FAILED);&#10;    throw $e-&gt;setResultsArray($rawResults);&#10;}&#10;$results = $rawResults['results_assoc'];&#10;&#10;if(count($results)) {&#10;    $result = reset($results);&#10;    if($result['targetName'] &gt; 0) {&#10;        return true;&#10;    }&#10;}&#10;return false;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
@@ -34,6 +34,16 @@
     <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="exit;" value="core::quit();" shortcut="ENTER" description="Exit replacement." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="sql" value="$sql = &lt;&lt;&lt;SQL&#10;SELECT COUNT(field) as targetName&#10;FROM `table`&#10;WHERE 1&#10;SQL;" description="SQL statement into $sql variable." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
     </context>
   </template>
 </templateSet>
