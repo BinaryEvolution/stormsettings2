@@ -36,7 +36,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="exit;" value="core::quit();" shortcut="ENTER" description="Exit replacement." toReformat="false" toShortenFQNames="true">
+  <template name="exit;" value="core::quit();" description="Exit replacement." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP Statement" value="true" />
     </context>
