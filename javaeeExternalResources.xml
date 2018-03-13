@@ -1,0 +1,11 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="genome:basic-types" location="/Volumes/Evolve/1_Evolution Projects/Genome 2.x/site/core/resources/schemas/basic-types.xsd" />
+    <resource url="genome:mitosis:fields:file" location="/Volumes/Evolve/1_Evolution Projects/Genome 2.x/site/core/resources/schemas/Mitosis/fields/file.xsd" />
+    <resource url="genome:mitosis:fields:itemReferenceList" location="/Volumes/Evolve/1_Evolution Projects/Genome 2.x/site/core/resources/schemas/Mitosis/fields/itemReferenceList.xsd" />
+    <resource url="genome:mitosis:items:user" location="/Volumes/Evolve/1_Evolution Projects/Genome 2.x/site/core/resources/schemas/Mitosis/items/user.xsd" />
+    <resource url="genome:mitosis:mitosis" location="/Volumes/Evolve/1_Evolution Projects/Genome 2.x/site/core/resources/schemas/Mitosis/mitosis.xsd" />
+    <resource url="genome:settings:site" location="/Volumes/Evolve/1_Evolution Projects/Genome 2.x/site/core/resources/schemas/Settings/site.xsd" />
+    <resource url="genome:settings:user" location="/Volumes/Evolve/1_Evolution Projects/Genome 2.x/site/core/resources/schemas/Settings/user.xsd" />
+  </component>
+</application>
