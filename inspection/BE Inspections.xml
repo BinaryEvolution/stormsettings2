@@ -143,8 +143,12 @@
   <inspection_tool class="PhpConstantReassignmentInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PhpDeprecationInspection" enabled="true" level="Legacy Code Error" enabled_by_default="true" />
   <inspection_tool class="PhpDivisionByZeroInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="PhpDocMissingReturnTagInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="PhpDocMissingThrowsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="PhpDocMissingReturnTagInspection" enabled="true" level="ERROR" enabled_by_default="true">
+    <option name="SKIP_ON_EMPTY_PHPDOC" value="false" />
+  </inspection_tool>
+  <inspection_tool class="PhpDocMissingThrowsInspection" enabled="true" level="ERROR" enabled_by_default="true">
+    <option name="SKIP_ON_EMPTY_PHPDOC" value="false" />
+  </inspection_tool>
   <inspection_tool class="PhpDocRedundantThrowsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PhpDocSignatureInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PhpDuplicateArrayKeysInspection" enabled="true" level="ERROR" enabled_by_default="true" />
