@@ -9,21 +9,17 @@
     <option name="REFRAIN_FROM_SCROLLING" value="true" />
   </component>
   <component name="InspectionProfileManager">
-    <info color="ebc700">
-      <option name="BACKGROUND" value="f6ebbc" />
-      <option name="ERROR_STRIPE_COLOR" value="ebc700" />
-      <option name="EFFECT_TYPE" value="1" />
-      <option name="myName" value="INFORMATION" />
+    <info color="c535eb">
+      <option name="BACKGROUND" value="eee0f6" />
+      <option name="EFFECT_COLOR" value="c535eb" />
+      <option name="ERROR_STRIPE_COLOR" value="c535eb" />
+      <option name="EFFECT_TYPE" value="2" />
+      <option name="myName" value="Generally not a problem" />
       <option name="myVal" value="50" />
-      <option name="myExternalName" value="INFORMATION" />
-    </info>
-    <info color="ebc700">
-      <option name="BACKGROUND" value="f6ebbc" />
-      <option name="ERROR_STRIPE_COLOR" value="ebc700" />
-      <option name="EFFECT_TYPE" value="1" />
-      <option name="myName" value="INFORMATION" />
-      <option name="myVal" value="50" />
-      <option name="myExternalName" value="INFORMATION" />
+      <option name="myExternalName" value="Generally not a problem" />
+      <option name="myDefaultAttributes">
+        <option name="ERROR_STRIPE_COLOR" value="c535eb" />
+      </option>
     </info>
     <info color="ebc700">
       <option name="BACKGROUND" value="f6ebbc" />
@@ -41,9 +37,18 @@
       <option name="myVal" value="50" />
       <option name="myExternalName" value="Legacy Code Error" />
     </info>
-  </component>
-  <component name="SqlEditorOptions">
-    <option name="concatenateStringsOnEnter" value="true" />
-    <option name="qualificationType" value="On collisions" />
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="Generally not a problem" />
+      <item index="1" class="java.lang.String" itemvalue="INFORMATION" />
+      <item index="2" class="java.lang.String" itemvalue="TYPO" />
+      <item index="3" class="java.lang.String" itemvalue="INFORMATION" />
+      <item index="4" class="java.lang.String" itemvalue="Documentation Error" />
+      <item index="5" class="java.lang.String" itemvalue="Legacy Code Error" />
+      <item index="6" class="java.lang.String" itemvalue="SERVER PROBLEM" />
+      <item index="7" class="java.lang.String" itemvalue="WEAK WARNING" />
+      <item index="8" class="java.lang.String" itemvalue="INFO" />
+      <item index="9" class="java.lang.String" itemvalue="WARNING" />
+      <item index="10" class="java.lang.String" itemvalue="ERROR" />
+    </list>
   </component>
 </application>
