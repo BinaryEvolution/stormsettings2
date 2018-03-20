@@ -7,7 +7,7 @@
     </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="c36fa454-476e-4d17-9047-671833b750e9" name="Nest - Web" url="http://nest">
-        <fileTransfer host="nest" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/brain/mwhite" accessType="SFTP" keyPair="true" username="root">
+        <fileTransfer host="nest" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/mnt/home/user/mwhite" accessType="SFTP" keyPair="true" username="root">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
