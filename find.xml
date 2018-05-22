@@ -34,8 +34,8 @@
       <mask>*.tpl*.php</mask>
       <mask>*.tpl,*.php</mask>
       <mask>*.scss</mask>
-      <mask>*.js</mask>
       <mask>*.php</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
