@@ -6,4 +6,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="variables-only" value="@import '../../../eco-styles/variables-only';" description="Variables Only for Top Level Package SCSS File in package css/ folder." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
