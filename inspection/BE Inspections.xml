@@ -110,9 +110,7 @@
   </inspection_tool>
   <inspection_tool class="JSUndeclaredVariable" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="JSUnnecessarySemicolon" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSUnresolvedFunction" enabled="true" level="Generally not a problem" enabled_by_default="true">
-    <option name="myStrictlyCheckGlobalDefinitions" value="true" />
-  </inspection_tool>
+  <inspection_tool class="JSUnresolvedFunction" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="JSUnresolvedLibraryURL" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSUnresolvedVariable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JSUnusedGlobalSymbols" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -142,6 +140,7 @@
     <option name="m_regex" value="[A-Z][A-Za-z\d]*|[a-z][a-z0-9_]+" />
     <option name="m_maxLength" value="24" />
   </inspection_tool>
+  <inspection_tool class="PhpComposerExtensionStubsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpConstantReassignmentInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PhpDeprecationInspection" enabled="true" level="Legacy Code Error" enabled_by_default="true" />
   <inspection_tool class="PhpDivisionByZeroInspection" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -233,4 +232,5 @@
     <option name="ignoreSemicolonAtEndOfBlock" value="true" />
   </inspection_tool>
   <inspection_tool class="XHTMLIncompatabilitiesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="XmlDefaultAttributeValue" enabled="false" level="WARNING" enabled_by_default="false" />
 </profile>
