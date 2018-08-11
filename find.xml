@@ -2,38 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>.</mask>
-      <mask>.p</mask>
-      <mask>.ph</mask>
-      <mask>.php</mask>
-      <mask>*.php|</mask>
-      <mask>*.php|*</mask>
-      <mask>*.php|*.</mask>
-      <mask>*.php|*.t</mask>
-      <mask>*.php|*.tp</mask>
-      <mask>*.php|*.tpl</mask>
-      <mask>*.php*.tpl</mask>
-      <mask>*.php,*.tpl</mask>
-      <mask>*.php, *.tpl</mask>
-      <mask>*</mask>
-      <mask>*.j</mask>
-      <mask>*.</mask>
-      <mask>*.t</mask>
-      <mask>*.tp</mask>
-      <mask>*.tpl *</mask>
-      <mask>*.tpl *.</mask>
-      <mask>*.tpl *.p</mask>
-      <mask>*.tpl *.ph</mask>
-      <mask>*.tpl *.php</mask>
-      <mask>*.tpl*.php</mask>
-      <mask>*.tpl,*.php</mask>
-      <mask>*.php</mask>
-      <mask>*.js</mask>
-      <mask>*.tpl</mask>
-      <mask>*.tpl</mask>
-      <mask>*.scss</mask>
-    </recentFileMasks>
   </component>
 </application>
