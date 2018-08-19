@@ -96,6 +96,9 @@
   <inspection_tool class="JSCommentMatchesSignature" enabled="true" level="Documentation Error" enabled_by_default="true" />
   <inspection_tool class="JSComparisonWithNaN" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="JSDeprecatedSymbols" enabled="true" level="Legacy Code Error" enabled_by_default="true" />
+  <inspection_tool class="JSEqualityComparisonWithCoercion" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="mySeverity" value="Only suspicious expressions" />
+  </inspection_tool>
   <inspection_tool class="JSLastCommaInArrayLiteral" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="JSLastCommaInObjectLiteral" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="JSMismatchedCollectionQueryUpdate" enabled="false" level="WARNING" enabled_by_default="false">
